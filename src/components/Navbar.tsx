@@ -77,7 +77,7 @@ export const Navbar = () => {
                     <div className="absolute top-0 left-0 bottom-0 w-[85%] bg-white shadow-2xl animate-slideRight">
                         <div className="p-6 flex flex-col h-full overflow-y-auto no-scrollbar">
                             <div className="flex items-center justify-between mb-10">
-                                <span className="font-brand font-bold text-xl uppercase">Nykaa<span className="text-primary">Fashion</span></span>
+                                <span className="font-brand font-bold text-xl uppercase px-2">Nykaa<span className="text-primary">Fashion</span></span>
                                 <div className="flex items-center gap-2">
                                     <button
                                         onClick={() => {
@@ -125,7 +125,7 @@ export const Navbar = () => {
                                             <Link
                                                 key={item.label}
                                                 href={item.href}
-                                                className="flex items-center justify-between p-4 bg-muted/20 rounded-xl group active:bg-primary active:text-white transition-all duration-300"
+                                                className="flex items-center justify-between pl-2 pr-4 py-4 bg-muted/20 rounded-xl group active:bg-primary active:text-white transition-all duration-300"
                                                 onClick={() => setIsMobileMenuOpen(false)}
                                             >
                                                 <div className="flex items-center gap-3">
@@ -139,7 +139,7 @@ export const Navbar = () => {
                                 </div>
                             </div>
 
-                            <div className="mt-auto pt-10 border-t border-muted pb-8 text-center sm:text-left">
+                            <div className="mt-auto pt-10 border-t border-muted pb-8 text-left px-2">
                                 <p className="text-[10px] text-luxury-stone uppercase tracking-widest mb-4 font-bold">Luxury Support</p>
                                 <div className="flex flex-col space-y-3 text-xs font-light">
                                     <Link href="#" className="hover:text-primary transition-colors">Shipping & Returns</Link>
